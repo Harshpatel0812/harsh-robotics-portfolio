@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import { Footer, Header, PageIntro } from "../components";
 import PrintButton from "./print-button";
 
-export const metadata: Metadata = { title: "Résumé", description: "Résumé of Harsh Patel, Robotics & Autonomy M.S. candidate targeting robotics software and autonomy roles." };
+export const metadata: Metadata = { title: "Resume", description: "Resume of Harsh Patel, Robotics & Autonomy M.S. candidate targeting robotics software and autonomy roles." };
 
 export default function ResumePage() {
-  return <main><Header active="resume" /><PageIntro index="04" eyebrow="RÉSUMÉ" title="Robotics software, autonomy, and hardware-aware engineering." copy="This page reflects my current résumé. Download the original PDF or use the print version below." />
-    <section className="resume-actions shell no-print"><a className="button button-primary" href="/Harsh_Patel_Resume.pdf" download>Download résumé PDF <span>↓</span></a><PrintButton /><a className="button button-quiet" href="mailto:harsh8121998@gmail.com">Email me</a></section>
+  return <main><Header active="resume" /><PageIntro index="04" eyebrow="RESUME" title="Robotics software, autonomy, and hardware-aware engineering." copy="This page reflects my current Resume. Download the original PDF or use the print version below." />
+    <section className="resume-actions shell no-print"><a className="button button-primary" href="/Harsh_Patel_Resume.pdf" download>Download Resume PDF <span>↓</span></a><PrintButton /><a className="button button-quiet" href="mailto:harsh8121998@gmail.com">Email me</a></section>
     <article className="resume-sheet shell">
       <header><div><h1>Harsh Patel</h1><p>Robotics Software &amp; Autonomy</p></div><div><a href="mailto:harsh8121998@gmail.com">harsh8121998@gmail.com</a><a href="tel:+14452089961">+1 (445) 208-9961</a><a href="https://www.linkedin.com/in/harshpatel0812/">linkedin.com/in/harshpatel0812</a><a href="https://github.com/Harshpatel0812">github.com/Harshpatel0812</a></div></header>
       <section><h2>Summary</h2><p>Robotics &amp; Autonomy M.S. candidate targeting entry-level Robotics Software and Autonomy roles, with hands-on experience building ROS/ROS 2, C++, and Python systems for mobile robot navigation, localization, SLAM, path planning, and manipulation. Built and validated TurtleBot3, OpenManipulator-X, EKF/MCL, A*/D* Lite, MoveIt, and Gazebo/RViz projects across simulation and hardware, backed by manufacturing and process-engineering experience.</p></section>
